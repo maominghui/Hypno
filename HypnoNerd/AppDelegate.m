@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "BNRReminderViewController.h"
 #import "BNRHypnosisViewController.h"
+#import "BNRScondViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -30,8 +32,10 @@
     
     //BNRReminderViewController *rvc = [[BNRReminderViewController alloc]init];
     
+    BNRScondViewController *third = [[BNRScondViewController alloc]init];
+    
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
-    tabBarController.viewControllers = @[hvc,rvc];
+    tabBarController.viewControllers = @[hvc,rvc,third];
     self.window.rootViewController = tabBarController;
     //self.window.rootViewController = rvc;
     //self.window.rootViewController = hvc;

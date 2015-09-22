@@ -31,6 +31,7 @@
     //必须调用父类的viewDidLoad
     [super viewDidLoad];
     NSLog(@"BNRHypnosisViewController loaded its view.");
+
 }
 
 
